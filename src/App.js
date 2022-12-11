@@ -1,12 +1,8 @@
 import React, { Components } from "react";
-import Navbar from "./Navbar";
+import Burger from "./Burger";
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-    </div>
-  );
+  return <Burger />;
 }
 
 export default App;
